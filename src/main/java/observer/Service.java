@@ -2,7 +2,7 @@ package observer;
 
 import java.util.Observable;
 
-public class News extends Observable {
+public class Service extends Observable {
 	private String news;
 
 	public String getNews() {

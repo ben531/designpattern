@@ -20,8 +20,8 @@ public class ClientX implements Observer {
 	 */
 	@Override
 	public void update(Observable o, Object arg) {
-		if (o instanceof News) {
-			News news = (News) o;
+		if (o instanceof Service) {
+			Service news = (Service) o;
 			System.out.println("最新消息: " + news.getNews());
 		}
 	}
